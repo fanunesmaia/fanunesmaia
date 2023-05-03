@@ -1,0 +1,7 @@
+considere que o site é minimalista. Qual cor deve ser de fundo? qual deve ser a cor dos botões? qual deve ser a cor primária e secundária?
+
+cor de fundo: #F2F1F0
+
+cor primária: #3A3E31
+
+cor secundária: #87563D
