@@ -9,3 +9,11 @@
 .bg-all {
     background-color: #F2F1F0 !important;
 }
+
+.text-primary {
+    color: #F2F1F0 !important;
+}
+
+.text-secondary {
+    color: #87563D !important;
+}
