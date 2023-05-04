@@ -1,5 +1,5 @@
 .bg-primary {
-    background-color:#3A3E31 !important;
+    background-color: #3A3E31 !important;
 }
 
 .bg-secondary {
@@ -16,4 +16,14 @@
 
 .text-secondary {
     color: #87563D !important;
+}
+
+.font-new {
+    font-family: 'Bitter', serif;
+}
+
+.img-redonda {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
 }
