@@ -48,6 +48,10 @@ h1 {
     height: 85vh;
 }
 
+#card-marg {
+    margin: auto;
+}
+
 
 
 
@@ -93,4 +97,15 @@ h1 {
     height: auto;
    }
 
+   #card-marg {
+    margin-bottom: 50px;
+   }
+}
+
+@media screen and (orientation: landscape) {
+    h1 {
+        font-size: 60px;
+    }
+    
+    
 }
