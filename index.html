@@ -23,17 +23,17 @@
   </div> -->
 
   <!-- First -->
-  <section id="first" style="height: 100vh; width: 100vw;" class="section bg-all">
+  <section id="first" style="height: 100vh;" class="section bg-all">
     <header style="height: 4vh;" class="">
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <div class="row col-12 collapse navbar-collapse" id="navbarExample01">
-            <ul class=" navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="mx-5 nav-item">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="mx-auto nav-item">
                 <a class="nav-link text-secondary" href="#about">SOBRE</a>
               </li>
-              <li class="mx-5 nav-item">
+              <li class="mx-auto nav-item">
                 <a class="nav-link text-secondary" href="#projects">PROJETOS</a>
               </li>
             </ul>
@@ -59,24 +59,24 @@
   </section>
 
   <!-- About -->
-  <section style="height: 100vh;" class="bg-primary section" id="about">
+  <section  class="bg-primary section" id="about">
 
-    <div id="sobrediv" style="" class="d-flex">
+    <div id="about-title" class="d-flex">
       <h2 class="m-auto text-primary">SOBRE</h2>
     </div>
 
-    <div style="height: 70vh;" class="row col-12 mx-auto">
+    <div id="about-size" class="row col-12 mx-auto">
 
-      <div id="picture" class="colusobre bg-all d-flex">
+      <div id="picture" class="colusobre bg-all d-flex col-12 col-sm-6">
         <div class="my-5 mx-auto m-sm-auto" style="width: 18rem;">
           <img class="rounded-circle card-img-top" src="perfil.fatima.jpg" alt="Card image cap">
         </div>
       </div>
 
-      <div style="height: 150%;" class="colusobre bg-secondary d-flex flex-column">
+      <div class="colusobre bg-secondary d-flex flex-column col-12 col-sm-6">
         <h3 style="" class="col-10 mx-auto mt-5 mb-1 text-primary">Fátima Nunesmaia</h3>
         <h6 class="col-10 mx-auto my-1 text-primary">Doutora</h6>
-        <p class="col-12 my-5 text-primary">
+        <p class="text-center ps-2 col-12 my-5 text-primary">
           Fátima Nunesmaia é uma geóloga e geoquímica graduada pela Universidade Federal da Bahia, que se envolveu em
           questões socioambientais e participou de grupos ambientalistas na década de 1980. Na UEFS, criou a Equipe de
           Educação Ambiental e coordenou a Campanha de doação de vidros - Ecopontos em parceria com o Grupo Ecológico
@@ -89,10 +89,11 @@
 
     </div>
 
-    <div id="wordkey" style="height: 15vh;" class="d-flex">
-      <h4 class="font-new m-auto text-primary">"Meio ambiente"</h4>
-      <h4 class="font-new m-auto text-primary">"Justiça Social"</h4>
-      <h4 class="font-new m-auto text-primary">"Socioambiental"</h4>
+    <div id="about-title" class="mx-auto d-flex">
+      <!-- 10vh para mobile -->
+      <h4 class="m-auto text-primary">"Meio ambiente"</h4>
+      <h4 class="m-auto text-primary">"Justiça Social"</h4>
+      <h4 class="m-auto text-primary">"Socioambiental"</h4>
     </div>
   </section>
 
@@ -103,14 +104,17 @@
     </div>
 
     <!-- Big project -->
-    <div style="height: 65vh;" class="row col-12">
-      <div style="height: 100%;" class="col-5 bg-primary"></div>
-      <div style="height: 100%;" class="col-7 d-flex">
+    <!-- sem altura nenhuma -->
+    <div id="project-page" class="row col-12">
+      <!-- col-2 mobile -->
+      <div  class="col-5 bg-primary"></div>
+      <!-- col-10 mobile -->
+      <div  class="col-7 d-flex">
         <div class="col-10 d-flex flex-column text-start m-auto">
           <h5 class="font-new mx-auto text-secondary">Gestão Socio Ambiental do PET Pós Consumo</h5>
           <h6 class="font-new mx-auto text-secondary">Consolidar os conceitos de cadeia produtiva e da
             gestão sócio-ambiental do Polietileno Tereftalato (PET) pós-consumo</h6>
-          <p class="my-5 font-new mx-auto text-secondary">
+          <p class="mt-5 text-center text-secondary">
             O projeto de Gestão Socioambiental do PET Pós-Consumo tem como objetivo principal consolidar os conceitos de
             cadeia produtiva e gestão socioambiental do Polietileno Tereftalato (PET) pós-consumo. Ele conta com a
             colaboração de diversas instituições, incluindo universidades, cooperativas e centros de recursos
@@ -129,74 +133,75 @@
         </div>
       </div>
     </div>
-
-    <div style="height: 15vh;" class="text-center d-flex">
-      <h4 class="m-auto text-dark">Outros projetos e prêmios.</h4>
+    <!-- sem altura em mobile -->
+    <div style="height: 15vh;" class="mt-5 text-center d-flex">
+      <h2 class="m-auto text-dark">Outros projetos e prêmios</h2>
     </div>
 
     <!-- Cards -->
+    <!-- pe-4 para mobile e sem mx-auto -->
     <div class="text-center row col-12 py-5 mx-auto">
-      <div class="m-4 col-2 bg-secondary card">
+      <div class="m-4 col-12 col-sm-2 bg-secondary card">
         <div class="card-body">
           <h5 class="font-new card-title text-primary">1994</h5>
           <p class="font-new card-text text-primary">Projeto Educação Ambiental para a cidade de Lençóis.
             Prefeitura/UEFS.</p>
         </div>
       </div>
-      <div class="m-4 col-2 bg-secondary card">
+      <div class="m-4 col-12 col-sm-2 bg-secondary card">
         <div class="card-body">
           <h5 class="font-new card-title text-primary">1997-1998</h5>
           <p class="font-new card-text text-primary">Projeto Resíduos Sólidos para município de Vitória da Conquista.
           </p>
         </div>
       </div>
-      <div class="m-4 col-2 bg-secondary card">
+      <div class="m-4 col-12 col-sm-2 bg-secondary card">
         <div class="card-body">
           <h5 class="font-new card-title text-primary">2002-2005</h5>
           <p class="font-new card-text text-primary">Gestão Socioambiental dos resíduos de Itaparica. UEFS.</p>
         </div>
       </div>
-      <div class="m-4 col-2 bg-secondary card">
+      <div class="m-4 col-12 col-sm-2 bg-secondary card">
         <div class="card-body">
           <h5 class="font-new card-title text-primary">2007-2009</h5>
           <p class="font-new card-text text-primary">Inserção Social e a cadeia produtiva do lixo eletrônico. UEFS.</p>
         </div>
       </div>
-      <div class="m-4 col-2 bg-secondary card">
+      <div class="m-4 col-12 col-sm-2 bg-secondary card">
         <div class="card-body">
           <h5 class="font-new card-title text-primary">2009-2010</h5>
           <p class="font-new card-text text-primary">Projeto Complexo Socioambiental de Capim Grosso (COSA). FAPESB.</p>
         </div>
       </div>
       <!-- PREMIAÇÕES -->
-      <div class="m-4 col-2 bg-secondary card">
+      <div class="m-4 col-12 col-sm-2 bg-secondary card">
         <div class="card-body">
           <h5 class="font-new card-title text-primary">1997</h5>
           <p class="font-new card-text text-primary">Defesa Ambiental, Federação Nacional dos Técnicos de Segurança do
             trabalho(FSA).</p>
         </div>
       </div>
-      <div class="m-4 col-2 bg-secondary card">
+      <div class="m-4 col-12 col-sm-2 bg-secondary card">
         <div class="card-body">
           <h5 class="font-new card-title text-primary">1999</h5>
           <p class="font-new card-text text-primary">Innovation/Un Nouveau pare-brise: pour un meilleur confort visuel,
             Paris 13, UCP, ENSEA, CNAM.</p>
         </div>
       </div>
-      <div class="m-4 col-2 bg-secondary card">
+      <div class="m-4 col-12 col-sm-2 bg-secondary card">
         <div class="card-body">
           <h5 class="font-new card-title text-primary">2002</h5>
           <p class="font-new card-text text-primary">Medalha do Mérito de Meio Ambiente - Rio Subaé, Câmara Municipal de
             FSA-BA.</p>
         </div>
       </div>
-      <div class="m-4 col-2 bg-secondary card">
+      <div class="m-4 col-12 col-sm-2 bg-secondary card">
         <div class="card-body">
           <h5 class="font-new card-title text-primary">2003</h5>
           <p class="font-new card-text text-primary">Prêmio FERFA de Meio Ambiente. CRA.</p>
         </div>
       </div>
-      <div class="m-4 col-2 bg-secondary card">
+      <div class="m-4 col-12 col-sm-2 bg-secondary card">
         <div class="card-body">
           <h5 class="font-new card-title text-primary">2004</h5>
           <p class="font-new card-text text-primary">Bahia Ambiental-Projet ECOPET, Secretaria de Meio Ambiente e

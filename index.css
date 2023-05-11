@@ -1,3 +1,5 @@
+
+
 .bg-primary {
     background-color: #3A3E31 !important;
 }
@@ -26,6 +28,29 @@
     height: 100%;
 }
 
+h1 {
+    font-size: 100px;
+}
+
+.section {
+    height: 100vh;
+}
+
+#about-size {
+    height: 70vh;
+}
+
+#about-title {
+    height: 15vh;
+}
+
+#project-page {
+    height: 85vh;
+}
+
+
+
+
 @media only screen and (max-width: 600px) {
 
     h1 {
@@ -36,11 +61,18 @@
         font-size: 30px;
     }
 
-    #sobrediv {
-        height: 5vh;
-    }
-
     #picture {
         height: fit-content;
     }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+   
+    
+
 }
