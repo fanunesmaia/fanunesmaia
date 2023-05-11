@@ -22,8 +22,25 @@
     font-family: 'Bitter', serif;
 }
 
-.img-redonda {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
+#picture {
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    #sobrediv {
+        height: 5vh;
+    }
+
+    #picture {
+        height: fit-content;
+    }
 }
