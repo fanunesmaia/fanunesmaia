@@ -72,7 +72,25 @@ h1 {
     h4 {
         font-size: 15px;
     }
+
+    #about-title {
+        height: 5vh;
+    }
+
+    #about-size {
+        height:auto
+    }
    
-    
+    #project-page {
+        height: auto;
+    }
+
+   #projects{
+    height: auto;
+   }
+
+   .section {
+    height: auto;
+   }
 
 }
