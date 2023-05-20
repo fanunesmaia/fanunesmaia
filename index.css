@@ -1,3 +1,5 @@
+
+
 .bg-primary {
     background-color: #3A3E31 !important;
 }
@@ -22,8 +24,84 @@
     font-family: 'Bitter', serif;
 }
 
-.img-redonda {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
+#picture {
+    height: 100%;
 }
+
+h1 {
+    font-size: 100px;
+}
+
+.section {
+    height: 100vh;
+}
+
+#about-size {
+    height: 70vh;
+}
+
+#about-title {
+    height: 15vh;
+}
+
+#project-page {
+    height: 85vh;
+}
+
+#card-marg {
+    margin-left: 13%;
+    margin-bottom: 5%;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    #picture {
+        height: fit-content;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    #about-title {
+        height: 5vh;
+    }
+
+    #about-size {
+        height:auto
+    }
+   
+    #project-page {
+        height: auto;
+    }
+
+   #projects{
+    height: auto;
+   }
+
+   .section {
+    height: auto;
+   }
+
+   #card-marg {
+    margin-bottom: 50px;
+    margin-left: 8%;
+   
+   }
+}
+
